@@ -26,7 +26,7 @@ public class Robot_CV {
     public void initializeCam(VisionPortal cv) {
         this.cv = cv;
     }
-    //idk just in case
+    //get ids, so u can use this for getting the tag, then get result from it
     public ArrayList<AprilTagDetection> getDetections() {
         return tagProcessor.getDetections();
     }
